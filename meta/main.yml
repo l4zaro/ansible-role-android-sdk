@@ -1,10 +1,9 @@
 ---
 galaxy_info:
-  author: Nick Pack
+  author: Credits to 'jamesla' and 'Nick Pack'
   description: "Installs the Android SDK tools, SDKs themselves and applicable application build dependencies"
-  company: 0xDEADFA11 Ltd
   license: BSD
-  min_ansible_version: 1.2
+  min_ansible_version: 2.0
   platforms:
   - name: Ubuntu
     versions:
@@ -25,9 +24,19 @@ galaxy_info:
     versions:
     - '10.11'
     - '10.12'
+  - name: Windows
+    versions:
+    - all
+    - 2008R2
+    - 2012R2
+    - 2016
   galaxy_tags:
   - development
   - system
   - android
   - adb
+  - java
+  - jdk
+  - jre
+  - windows
 dependencies: []
