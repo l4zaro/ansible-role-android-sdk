@@ -52,3 +52,7 @@ android_sdks_to_install:
       - android-18
       - android-17
       - android-16
+
+jdk_package: jdk8
+java_major_version: 8.0
+java_minor_version: 162

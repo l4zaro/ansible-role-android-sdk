@@ -1,0 +1,6 @@
+---
+
+- name: Install Android SDKs for applicable releases
+  win_chocolatey:
+    name: android-sdk
+    version: "{{ android_sdk_base_buildtools_version }}"

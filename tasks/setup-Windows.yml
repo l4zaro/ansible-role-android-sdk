@@ -1,0 +1,3 @@
+---
+- include: dependencies-Windows.yml
+- include: sdksinstall-Windows.yml
